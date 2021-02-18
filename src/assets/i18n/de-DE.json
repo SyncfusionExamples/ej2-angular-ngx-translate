@@ -1,0 +1,28 @@
+{
+    "TITLE": "Die Sprache dieser Anwendung ist Deutsch (Deutschland)",
+    "GRID": {
+        "DISPLAYVALUE": "Anzeigewert",
+        "NUMBERVALUE": "Numerischer Wert",
+        "DATEVALUE": "Datumswert"
+    },
+    "check" : {"check":"langcheck1","check2":"langcheck2"},
+    "SYNCFUSION": {
+        "grid": {
+            "EmptyRecord": "Keine Daten vorhanden",
+            "GroupDropArea": "Ziehen Sie einen Spaltenkopf hierhin, um die Spalte zu gruppieren",
+            "UnGroup": "Klicken Sie hier, um die Gruppierung aufzuheben",
+            "Item": "Eintrag",
+            "Items": "Einträge"
+        },
+        "pager":{
+            "currentPageInfo": "{0} von {1} Seiten",
+            "totalItemsInfo": "({0} Zeilen)",
+            "firstPageTooltip": "Zur ersten Seite",
+            "lastPageTooltip": "Zur letzten Seite",
+            "nextPageTooltip": "Zur nächsten Seite",
+            "previousPageTooltip": "Zurück zur letzten Seite",
+            "nextPagerTooltip": "Zur den nächsten Seiten",
+            "previousPagerTooltip": "Zu den vorherigen Seiten"
+        }
+    }
+}
