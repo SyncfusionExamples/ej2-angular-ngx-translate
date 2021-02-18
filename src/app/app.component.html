@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    {{'TITLE' | translate}}
+  </h1>
+  <select #lang class="form-control" (change)="onLanguageSelect($event, lang.value)">
+    <option *ngFor="let l of supportedLanguages" [value]="l.culture">{{l.displayName}}</option>
+  </select>
+</div>
+<p></p>
+
+<!-- my component -->
+<ejs-grid #grid [dataSource]="items" [locale]="locale">
+  <e-columns>
+    <!-- header text adding for simple interpolation -->
+    <e-column field="OrderID" headerText="{{'GRID.DISPLAYVALUE' | translate}}" width="80"></e-column>
+
+    <!-- header text not adding when use translate -->
+    <e-column field="CustomerID" headerText="{{'GRID.NUMBERVALUE' | translate}}" width="75" [allowSorting]="false"></e-column>
+  </e-columns>
+</ejs-grid>
