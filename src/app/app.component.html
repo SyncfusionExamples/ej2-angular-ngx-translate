@@ -10,7 +10,7 @@
 <p></p>
 
 <!-- my component -->
-<ejs-grid #grid [dataSource]="items" [locale]="locale">
+<ejs-grid #grid [dataSource]="items" [locale]="locale" [allowPaging]="true" [pageSettings]="pageSettings">
   <e-columns>
     <!-- header text adding for simple interpolation -->
     <e-column field="OrderID" headerText="{{'GRID.DISPLAYVALUE' | translate}}" width="80"></e-column>
